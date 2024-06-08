@@ -93,17 +93,17 @@
                     <div class="col-lg-6 wow fadeIn" data-wow-delay=".5s">
                         <div class="p-5 rounded contact-form">
                             <div class="mb-4">
-                                <input type="text" class="form-control border-0 py-3" placeholder="Tu nombre">
+                                <input type="text" id="name" class="form-control border-0 py-3" placeholder="Tu nombre">
                             </div>
                             <div class="mb-4">
-                                <input type="email" class="form-control border-0 py-3" placeholder="Tu correo electronico">
+                                <input type="email" id="email" class="form-control border-0 py-3" placeholder="Tu correo electronico">
                             </div>
                             <div class="mb-4">
-                                <textarea class="w-100 form-control border-0 py-3" rows="6" cols="10"
+                                <textarea class="w-100 form-control border-0 py-3" id="message" rows="6" cols="10"
                                     placeholder="Cuentanos acerca de tu necesidad"></textarea>
                             </div>
                             <div class="text-start">
-                                <button class="btn bg-primary text-white py-3 px-5" type="button">Enviar mensaje</button>
+                                <button class="btn bg-primary text-white py-3 px-5" type="button" onclick="sendEmail()">Enviar mensaje</button>
                             </div>
                         </div>
                     </div>
@@ -121,6 +121,7 @@
 <script src="lib/easing/easing.min.js"></script>
 <script src="lib/waypoints/waypoints.min.js"></script>
 <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 
 <!-- Scripts personalizados -->
 <script src="js/main.js"></script>
