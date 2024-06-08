@@ -31,8 +31,33 @@
 </head>
 
 <body>
+    <!-- Menu -->
+    <div class="container-fluid bg-primary">
+        <div class="container">
+            <nav class="navbar navbar-dark navbar-expand-lg py-0">
+                <a href="index.html" class="navbar-brand">
+                    <h1 class="text-white fw-bold d-block">Proyecto<span class="text-secondary">DAW</span> </h1>
+                </a>
+                <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse bg-transparent" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto mx-xl-auto p-0">
+                        <a href="index.html" class="nav-item nav-link active text-secondary">Inicio</a>
+                        <a href="about.html" class="nav-item nav-link">Quienes somos</a>
+                        <a href="service.html" class="nav-item nav-link">Nuestros clientes</a>
+                        <a href="project.html" class="nav-item nav-link">Equipo</a>
+                        <a href="contact.html" class="nav-item nav-link">Contacto</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Menu fin -->
 
-    <!-- Contact Start -->
+
+    <!-- Contacto -->
     <div class="container-fluid py-5 mb-5">
         <div class="container">
             <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
@@ -83,8 +108,7 @@
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeIn" data-wow-delay=".3s">
                         <div class="p-5 h-100 rounded contact-map">
-                            <iframe
-                                class="rounded w-100 h-100"
+                            <iframe class="rounded w-100 h-100"
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5834.7052239371!2d-89.57144202514984!3d13.973271530862657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f62e8f193eda62f%3A0xd40e3f2801fddb61!2sWestern%20Multidisciplinary%20Faculty%20UES!5e0!3m2!1sen!2ssv!4v1717860440553!5m2!1sen!2ssv"
                                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                                 referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -96,14 +120,16 @@
                                 <input type="text" id="name" class="form-control border-0 py-3" placeholder="Tu nombre">
                             </div>
                             <div class="mb-4">
-                                <input type="email" id="email" class="form-control border-0 py-3" placeholder="Tu correo electronico">
+                                <input type="email" id="email" class="form-control border-0 py-3"
+                                    placeholder="Tu correo electronico">
                             </div>
                             <div class="mb-4">
                                 <textarea class="w-100 form-control border-0 py-3" id="message" rows="6" cols="10"
                                     placeholder="Cuentanos acerca de tu necesidad"></textarea>
                             </div>
                             <div class="text-start">
-                                <button class="btn bg-primary text-white py-3 px-5" type="button" onclick="sendEmail()">Enviar mensaje</button>
+                                <button class="btn bg-primary text-white py-3 px-5" type="button"
+                                    onclick="sendEmail()">Enviar mensaje</button>
                             </div>
                         </div>
                     </div>
@@ -111,7 +137,7 @@
             </div>
         </div>
     </div>
-    <!-- Contact End -->
+    <!-- Contacto fin -->
 </body>
 
 <!-- Scripts de librerias -->
