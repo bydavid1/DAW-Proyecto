@@ -56,50 +56,61 @@
         </div>
     </div>
     <!-- Menu fin -->
-    <!-- Slider -->
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+<!-- Carousel Start -->
+<div class="container-fluid px-0">
+    <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
+            <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <img src="img/finanza1.jpg" class="img-fluid" alt="First slide">
+                <div class="carousel-caption">
+                    <div class="container carousel-content">
+                        <h6 class="text-secondary h4 animated fadeInUp">Capital Solutions</h6>
+                        <h1 class="text-white display-1 mb-4 animated fadeInRight">Gestión Financiera de Empresas</h1>
+                        <p class="mb-4 text-white fs-5 animated fadeInDown">Asesoramiento para una planificaciòn financiera para encontrar oportunidades de inversión, y lograr una optimización fiscal</p>
+                        <a href="" class="me-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Read More</button></a>
+                        <a href="" class="ms-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Contact Us</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/finanza2.jpg" class="img-fluid" alt="Second slide">
+                <div class="carousel-caption">
+                    <div class="container carousel-content">
+                        <h6 class="text-secondary h4 animated fadeInUp">Capital Solutions</h6>
+                        <h1 class="text-white display-1 mb-4 animated fadeInLeft">Mejoramos tu Rentabilidad</h1>
+                        <p class="mb-4 text-white fs-5 animated fadeInDown">Al identificar oportunidades de mejora, y proveer las mejores estrategias personalizadas, tu empresa alcanzará esos objetivos financieros a corto y largo plazo</p>
+                        <a href="" class="me-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Read More</button></a>
+                        <a href="" class="ms-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Contact Us</button></a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/finanza3.jpg" class="img-fluid" alt="Third slide">
+                    <div class="carousel-caption">
+                        <div class="container carousel-content">
+                            <h6 class="text-secondary h4 animated fadeInUp">Capital Solutions</h6>
+                            <h1 class="text-white display-1 mb-4 animated fadeInLeft">Analisis en tiempo real de los movimientos de la bolsa de Valores</h1>
+                            <p class="mb-4 text-white fs-5 animated fadeInDown">Tendrás en tus manos la actualización en tiempo real de como están las finanzas en la bolsa de valores, recibirás un informe detallado
+                                de la información a traves de nuestros especialista y recomendaciones para facilitar la toma de deciones para ese crecimiento financiero.</p>
+                            <a href="" class="me-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Read More</button></a>
+                            <a href="" class="ms-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Contact Us</button></a>
+                        </div>
+            </div>
         </div>
-        <div class="carousel-inner" >
-            <div class="carousel-item active" data-bs-interval="3000">
-                <img src="img/finanza1.jpg" class="d-block" style="  max-height: 400px; object-fit: cover; width: 100%;" alt="Servicio 1">
-                <div class="carousel-caption">
-                    <h3 class="text-white">Gestiòn Financiera de Empresas</h3>
-                    <p class="text-white">Asesoramiento para una planificaciòn financiera para encontrar oportunidades de inversión, y lograr una optimización fiscal</p>
-                </div>
-            </div>
-            <div class="carousel-item" data-bs-interval="3000">
-                <img src="img/finanza2.jpg" class="d-block w-100" style="  max-height: 400px; object-fit: cover; width: 100%;" alt="Servicio 2">
-                <div class="carousel-caption">
-                    <h3 class="text-white">Mejoramos tu Rentabilidad</h3>
-                    <p class="text-white bg-secondary">Al identificar oportunidades de mejora, y proveer las mejores estrategias personalizadas, tu empresa alcanzará esos objetivos financieros a corto y largo plazo</p>
-                   
-                </div>
-            </div>
-            <div class="carousel-item" data-bs-interval="3000">
-                <img src="img/finanza3.jpg" class="d-block w-100" style="  max-height: 400px; object-fit: cover; width: 100%;" alt="Servicio 3">
-                <div class="carousel-caption">
-                    <h3 class="text-white bg-primary">Analisis en tiempo real de los movimientos de la bolsa de Valores</h3>
-                    <p class="text-white">Tendrás en tus manos la actualización en tiempo real de como están las finanzas en la bolsa de valores, recibirás un informe detallado
-                        de la información a traves de nuestros especialista y recomendaciones para facilitar la toma de deciones para ese crecimiento financiero.
-                    </p>
-              
-                </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-    <!-- Slider fin -->
+</div>
+<!-- Carousel End -->
 
 
     <!-- Contacto -->
